@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    
+  }
+  .text{
+    max-width: 40rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+  .Title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    color: rgb(87, 87, 255);
+  }
+  .service{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 8rem;
+    color: rgb(87, 87, 255);
+  }
+  .Button{
+    background-color: rgb(59, 59, 255);
+    color: white;
+    padding: 1rem 5rem 1rem 5rem;
+    margin-bottom: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .Button:hover{
+    background-color: rgb(87, 87, 255);
+  }
+
+  details>summary {
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+    padding-left: 10rem;
+  }
+  
+  summary::after {
+    content: ' ►';
+  }
+  details[open] summary:after {
+    content: " ▼";
+  }
+  form{
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+    width: 47rem;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    opacity: 0.7;
+  }
+  svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 6rem;
+  }
+
+  .title{
+   font-weight: bold
+  }
+
+  .appoint{
+    font-size: 1rem;
+    font-weight: bold;
+
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-top: #000 solid;
+    gap: 1rem;
+  }
+  .label{
+    font-size: 1rem;
+  }
+  .form{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .checkbox {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+  }
+.color{
+    color:  rgb(59, 59, 255);
+    font-weight: bold;
+}
